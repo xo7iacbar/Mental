@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.NatijaFragment">
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape" />
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/shape_btn"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/cardidnatija"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/natijatxt"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Sizning natijangiz!✧"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:id="@+id/jamibaltxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Sizning balingiz:90"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="67dp"
+            android:id="@+id/togrijavobtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="to'g'ri javoblar soni:12"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="94dp"
+            android:id="@+id/notogrijavobtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="noto'g'ri javoblar soni:89"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="118dp"
+            android:id="@+id/umumiyberilganjavobtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="umumiy berilgan javob:20"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_marginTop="145dp"
+            android:id="@+id/umumiysavoltxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="umumiy savollar soni:20"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatButton
+       android:id="@+id/qaytishbtn"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="qaytish"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:padding="20dp"
+        android:background="@drawable/shape_btn"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@id/cardidnatija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

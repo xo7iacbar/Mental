@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".presentation.TestFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/sekuntid"
+        app:cardCornerRadius="45dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+
+            android:id="@+id/sekunttxtid"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/savolid"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintTop_toBottomOf="@id/sekuntid"
+        app:cardCornerRadius="20dp">
+        <TextView
+
+            android:id="@+id/savoltxt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:text="9+4+3+2+6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/variant1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/savolid"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="10dp">
+        <TextView
+
+            android:id="@+id/variant1txt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:text="93"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/variant2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/variant1"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="10dp">
+        <TextView
+
+            android:id="@+id/variant2txt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:text="93"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_margin="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/variant3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@id/variant2"
+        app:cardCornerRadius="20dp"
+        tools:layout_editor_absoluteX="10dp">
+        <TextView
+
+            android:id="@+id/variant3txt"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="50dp"
+            android:text="93"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
