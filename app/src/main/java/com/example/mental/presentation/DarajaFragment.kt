@@ -53,6 +53,11 @@ class DarajaFragment : Fragment() {
                 .replace(R.id.continer, TestFragment.newInstance(param1 = "Qiyin", param2 = ""))
                 .commit()
         }
+        binding.cardidgame.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.continer, GameFragment.newInstance(param1 = "Game", param2 = ""))
+                .commit()
+        }
     }
     companion object {
         /**

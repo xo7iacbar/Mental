@@ -4,17 +4,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.TestFragment">
+    tools:context=".presentation.TestFragment"
+    android:background="@drawable/shape">
 
     <ImageView
+        android:background="@drawable/shape"
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:src="@drawable/logo" />
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:background="@drawable/shape"
+
+<ImageView
+    android:layout_marginStart="100dp"
+    android:layout_marginBottom="600dp"
+    android:src="@drawable/light"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+    <ImageView
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="600dp"
+        android:src="@drawable/light"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
 
 
     <androidx.cardview.widget.CardView
