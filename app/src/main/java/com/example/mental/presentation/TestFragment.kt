@@ -80,7 +80,7 @@ private var umumiySavollarsoni=20
         }
     }
     private fun yaratish() {
-        var ms1 = arrayListOf(0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+        var ms1 = arrayListOf(1,2,3,4,5,6,7,8,9,10, 11, 12, 13, 14, 15, 16, 17, 18, 19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50)
         var ms2 = arrayListOf(2, 3, 4, 5)
         var amalSoni = ms2.random()
         var birinchison = -1
@@ -142,11 +142,12 @@ private var umumiySavollarsoni=20
 
     }
 
+
     private fun variantlar(tjavob: Int) {
 
         var list = ArrayList<Int>()
-        var boshlanish = tjavob - 5
-        var tugash = tjavob + 5
+        var boshlanish = tjavob - 15
+        var tugash = tjavob + 12
         for (i in boshlanish..tugash) {
             list.add(i)
         }
@@ -177,9 +178,9 @@ private var umumiySavollarsoni=20
         viewLifecycleOwner.lifecycleScope.launch {
 
             var secunt=when(param1){
-                "Oson"-> 100
-                "O'rta"-> 80
-                "Qiyin"->60
+                "Oson"-> 80
+                "O'rta"-> 60
+                "Qiyin"->40
                 else-> 0
             }
 

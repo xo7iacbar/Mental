@@ -105,10 +105,11 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:textSize="30dp"
-            android:text="Game play"
+            android:text="Mini o'yin "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <ImageView
+            android:id="@+id/oyinid"
             android:layout_width="400dp"
             android:layout_height="100dp"
             android:src="@drawable/light"
