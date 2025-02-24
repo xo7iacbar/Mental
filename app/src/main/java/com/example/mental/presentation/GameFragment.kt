@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import com.example.mental.R
 import com.example.mental.databinding.FragmentGameBinding
 import com.example.mental.databinding.FragmentLoginBinding
+import kotlin.random.Random
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -20,7 +21,9 @@ private const val ARG_PARAM2 = "param2"
  * create an instance of this fragment.
  */
 class GameFragment : Fragment() {
+
 lateinit var binding: FragmentGameBinding
+
     private var param1: String? = null
     private var param2: String? = null
 
@@ -33,6 +36,7 @@ lateinit var binding: FragmentGameBinding
     }
 
     override fun onCreateView(
+
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
@@ -61,6 +65,10 @@ lateinit var binding: FragmentGameBinding
         }
 
 
+
+
+
+
     }
 
     companion object {
@@ -86,3 +94,13 @@ lateinit var binding: FragmentGameBinding
             }
     }
 }
+
+//fun yaratish(){
+//
+//
+//
+//    val images= arrayOf(R.drawable.wolf,R.drawable.tiger,R.drawable.fil,R.drawable.fish,R.drawable.kengru,R.drawable.burgut,R.drawable.horse,R.drawable.sheep,R.drawable.wolf,R.drawable.jaguar,R.drawable.lion,)
+//    var randomindex= Random.nextInt(images.size)
+//    image.setImageResourse(images[randomindex])
+//
+//}

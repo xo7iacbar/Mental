@@ -20,12 +20,13 @@
         app:layout_constraintBottom_toTopOf="@id/ismedt"
         android:textAlignment="center"
         android:textSize="25dp"
-        android:textColor="#FAFAFA"
+        android:textColor="#FFFFFF"
         android:text="Ismingizni kiriting!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"/>
    <EditText
+       android:textColor="#10DC2F"
        android:id="@+id/ismedt"
        android:layout_marginTop="100dp"
         android:textAlignment="center"
@@ -42,13 +43,14 @@
         android:textAlignment="center"
         android:textSize="25dp"
         android:textStyle="bold"
-        android:textColor="#FFFFFF"
+        android:textColor="#F2F1F1"
         android:text="Yoshingizni kiriting!"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"/>
 
     <EditText
+
        android:id="@+id/yoshedt"
         android:layout_marginTop="100dp"
         android:textAlignment="center"
@@ -69,12 +71,11 @@
         android:text=" Saqlash"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
-        android:background="@drawable/edt_shpe"
+        android:background="@drawable/shape_btn"
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginBottom="50dp"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        />
+        android:layout_height="70dp" />
 
 
 

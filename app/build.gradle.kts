@@ -42,10 +42,7 @@ android {
 }
 
 dependencies {
-    dependencies {
-        implementation("androidx.room:room-routine:2.5.2")
-        implementation("androidx.room:room-ktx:2.5.2")
-        kapt("androidx.room:room-compiler:2.5.2")}
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

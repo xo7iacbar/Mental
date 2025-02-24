@@ -7,6 +7,7 @@
     tools:context=".presentation.DarajaFragment"
     android:background="@drawable/shape">
 
+
     <ImageView
         android:background="@drawable/shape"
         android:layout_width="match_parent"
@@ -14,14 +15,14 @@
         android:src="@drawable/logo" />
 
 
-
     <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="#A4D549"
         android:layout_marginTop="50dp"
         android:id="@+id/cardidoson"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintTop_toTopOf="parent">
         <TextView
@@ -33,20 +34,23 @@
             android:text="1-bosqich        "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
+
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="100dp"
-            android:src="@drawable/light"
-            android:layout_marginStart="60dp"
-            app:layout_constraintTop_toTopOf="@+id/cardidgame" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/level1" />
+
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#A4D549"
+        android:layout_marginTop="30dp"
         android:id="@+id/cardidorta"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintTop_toBottomOf="@id/cardidoson">
         <TextView
@@ -59,19 +63,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="100dp"
-            android:src="@drawable/light"
-            android:layout_marginStart="60dp"
-            app:layout_constraintTop_toTopOf="@+id/cardidgame" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/level2" />
+
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-        android:layout_marginTop="50dp"
+        app:cardBackgroundColor="#A4D549"
+        android:layout_marginTop="30dp"
         android:id="@+id/cardidqiyin"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintTop_toBottomOf="@id/cardidorta">
         <TextView
@@ -84,19 +90,21 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <ImageView
-            android:layout_width="400dp"
-            android:layout_height="100dp"
-            android:src="@drawable/light"
-            android:layout_marginStart="60dp"
-            app:layout_constraintTop_toTopOf="@+id/cardidgame" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/level3" />
+
     </androidx.cardview.widget.CardView>
     <androidx.cardview.widget.CardView
-      android:layout_marginTop="150dp"
+        app:cardBackgroundColor="#A4D549"
+      android:layout_marginTop="130dp"
         android:id="@+id/cardidgame"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintTop_toTopOf="@id/cardidqiyin">
         <TextView
@@ -105,17 +113,45 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:textSize="30dp"
-            android:text="Mini o'yin "
+            android:text="Mini o'yin       "
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
         <ImageView
-            android:id="@+id/oyinid"
-            android:layout_width="400dp"
-            android:layout_height="100dp"
-            android:src="@drawable/light"
-            android:layout_marginStart="105dp"
-            app:layout_constraintTop_toTopOf="@+id/cardidgame" />
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="230dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/level4" />
     </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+
+        app:cardBackgroundColor="#A4D549"
+        android:layout_marginTop="130dp"
+        android:id="@+id/cardid5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintTop_toTopOf="@id/cardidgame">
+        <TextView
+            android:id="@+id/judaqiyintxt"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="5-bosqich     "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <ImageView
+            android:layout_marginTop="14dp"
+            android:layout_marginStart="225dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/lvl5" />
+
+    </androidx.cardview.widget.CardView>
+
 
 
 

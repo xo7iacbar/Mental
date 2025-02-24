@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AlertDialog
 import com.example.mental.R
 import com.example.mental.databinding.FragmentDarajaBinding
 import com.example.mental.databinding.FragmentTestBinding
@@ -54,8 +55,18 @@ class DarajaFragment : Fragment() {
                 .commit()
         }
         binding.cardidgame.setOnClickListener {
-            requireActivity().supportFragmentManager.beginTransaction()
+            val dialog=AlertDialog.Builder(requireActivity()).create()
+            dialog.setTitle("Prafilaktika")
+            dialog.setMessage("Ushbu Mini oyin bo'limi prafilaktika jarayonida tez orada ushbu bo'lim ham qo'shiladi")
+            dialog.show()
+
+           /* requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.continer, GameFragment.newInstance(param1 = "Game", param2 = ""))
+                .commit()*/
+        }
+        binding.cardid5.setOnClickListener {
+            requireActivity().supportFragmentManager.beginTransaction()
+                .replace(R.id.continer, TestFragment.newInstance(param1 = "Oson", param2 = ""))
                 .commit()
         }
     }
