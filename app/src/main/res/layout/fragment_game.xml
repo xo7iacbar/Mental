@@ -17,7 +17,25 @@
 
    </androidx.constraintlayout.widget.ConstraintLayout>
 
+   <androidx.cardview.widget.CardView
+       app:cardBackgroundColor="#A4D549"
+       android:id="@+id/sekuntid"
+       app:cardCornerRadius="45dp"
+       android:layout_width="80dp"
+       android:layout_height="80dp"
+       android:layout_marginTop="20dp"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+   <TextView
 
+       android:id="@+id/sekunttxtid"
+       android:textStyle="bold"
+       android:gravity="center"
+       android:textSize="50dp"
+       android:text="0"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+   </androidx.cardview.widget.CardView>
    <ImageView
        android:id="@+id/imageView"
        android:layout_marginBottom="300dp"

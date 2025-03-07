@@ -41,6 +41,7 @@ class LoginFragment : Fragment() {
        binding.saqlashbtn.setOnClickListener {
            requireActivity().supportFragmentManager.beginTransaction().replace(R.id.continer,DarajaFragment()).commit()
        }
+
     }
     companion object {
         /**

@@ -45,7 +45,7 @@ class TushintirishFragment : Fragment() {
 
 binding.Tushunarlibtn.setOnClickListener{
 
-    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.continer,DarajaFragment()).commit()
+    requireActivity().supportFragmentManager.beginTransaction().replace(R.id.continer,LoginFragment()).commit()
 }
     }
 

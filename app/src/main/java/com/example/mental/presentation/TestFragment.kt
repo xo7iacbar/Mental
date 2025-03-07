@@ -184,6 +184,7 @@ private var umumiySavollarsoni=20
                 "Oson"-> 80
                 "O'rta"-> 60
                 "Qiyin"->40
+                "5bosqich"->30
                 else-> 0
             }
 
